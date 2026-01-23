@@ -1,0 +1,39 @@
+Práctica 4: Servidor HTTP
+
+Programar una aplicación servidor HTTP que atienda peticiones de tipo GET, POST, PUT,
+DELETE para al menos 4 tipos de MIME distintos. El servidor contará con un pool de
+conexiones (tamaño definido por el usuario) y cuando el pool supere la mitad del tamaño
+se deberá iniciar un segundo servidor y redirecciones las peticiones al segundo servidor.
+
+Implementar un mini APACHE, socket de flujo (HTTP protocolo)
+
+Petición
+
+GET / recurso HTTP / versión -> cuerpo del mensaje de la petición HTTP
+Encabezado -> meta información
+\r\n
+datos adjuntos -> contenido del archivo
+
+códigos de respuesta (http) -> 200, 301, 400, 403, 404, 405, 501
+Se envía la petición al servidor y si todo esta bien -> respuesta HTTP/versión código /detalle.código
+ 
+GET /Axel/aplicaciones/sockets/c HTTP/1.1 -> mensaje, petición que hace el navegador
+Host: dirección host -> la que se pone en la URL
+Connection: 
+
+
+Tipo: MIME -> que se esta codificando como texto
+
+148.204.58.221/axel/apliciiones/sockets/java/server2.zip -> ejemplo
+-> inicializar el servidor -> se inicializa un pool de conexiones
+
+1.- Se envía la petición
+2.- Se construye el mensaje
+2.1.- Si la petición no existe se redirige a una página
+2.2.- (GET) -> se verifica que tenga parámetros -> se envía el recurso
+2.3.- (GET) -> si tiene parámetros se separa en tokens, para obtener los parámetros
+3.- La respuesta es una página donde se incrustan los parámetros
+4.- Se genera el encabezado (Content-Type, Content-Lenght) -> referencia al archivo
+
+-> Para el DELETE verificar los permisos de escritura
+-> Ver el estado de la pila de conexiones

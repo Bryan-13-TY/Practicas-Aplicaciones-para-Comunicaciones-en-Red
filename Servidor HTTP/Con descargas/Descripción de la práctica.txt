@@ -1,0 +1,36 @@
+OPCIÓN 1: Sockets no bloqueantes
+
+wget -> para descargar archivos de internet
+    ponemos el hipervilculo hasta el archivo
+    ponemos el hipervilculo hasta la carpeta
+
+crea un socket de flujo -> consulta de tipo get -> a partir de un socket de flujo no bloqueante ->
+string peticion "GET " + "recurso" + " HTTP/1.1" + "HOST: " + "host t" + "" 
+
+si devuelve 301 (si una carpeta no termina en /) -> buscamos el "Location"
+si devuelve 200 -> el cuerpo se almacena en un archivo (index.html por defecto) -> leer "Content-Length" para los bytes a guardar
+
+wget -r http://...
+
+-> recurisvo -> niveles de profundidad
+
+wget -r http://148.204.58.221/axel/aplicaciones
+-> analizar primero el protocolo (http: 80) -> buscar el hist o nombre canico -> puerto : #pto -> recurso 
+
+
+1.- Creamos un socket de flujo no bloqueante
+
+OPCIÓN 2: Sockets no bloqueantes
+
+Las canciones no están centralizadas
+
+P2P: politica de búsqueda de profundidad -> resultado de mayor calidad 
+
+C1 -> Escribir la canción -> si se repite, te lleva al Servidor más cercano
+C1 -> || -> Escribir la canción -> si no esta en el Servidor -> socket multicast (dirección de grupo) (TTL salto de distancía) -> Búsqueda primero en amplitud
+hilo1 -> peticion -> envio
+hilo2 -> reproducción (en tiempo real)
+
+S1 -> canciones diferentes
+S2 -> canciones diferentes
+S3 -> canciones diferentes

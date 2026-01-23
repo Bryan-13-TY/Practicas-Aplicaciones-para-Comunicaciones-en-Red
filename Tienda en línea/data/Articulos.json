@@ -1,0 +1,284 @@
+{
+    "articulos": [
+        {
+            "id": 1,
+            "tipo": "Abarrotes",
+            "nombre": "Tortillas de maíz",
+            "precio": 28,
+            "marca": "Maseca",
+            "stock": 104
+        },
+        {
+            "id": 2,
+            "tipo": "Abarrotes",
+            "nombre": "Pan blanco",
+            "precio": 45,
+            "marca": "Bimbo",
+            "stock": 69
+        },
+        {
+            "id": 3,
+            "tipo": "Abarrotes",
+            "nombre": "Arroz",
+            "precio": 34,
+            "marca": "La Sierra",
+            "stock": 52
+        },
+        {
+            "id": 4,
+            "tipo": "Abarrotes",
+            "nombre": "Frijol bayos",
+            "precio": 48,
+            "marca": "El Campeón",
+            "stock": 35
+        },
+        {
+            "id": 5,
+            "tipo": "Abarrotes",
+            "nombre": "Café molido",
+            "precio": 85,
+            "marca": "Café Punta del Cielo",
+            "stock": 23
+        },
+        {
+            "id": 6,
+            "tipo": "Abarrotes",
+            "nombre": "Ázucar blanca",
+            "precio": 26,
+            "marca": "Zulka",
+            "stock": 90
+        },
+        {
+            "id": 7,
+            "tipo": "Abarrotes",
+            "nombre": "Aceite vegetal",
+            "precio": 48,
+            "marca": "Nutrioli",
+            "stock": 70
+        },
+        {
+            "id": 8,
+            "tipo": "Bebidas",
+            "nombre": "Refresco cola",
+            "precio": 28,
+            "marca": "Pepsi",
+            "stock": 150
+        },
+        {
+            "id": 9,
+            "tipo": "Bebidas",
+            "nombre": "Agua mineral",
+            "precio": 18,
+            "marca": "Ciel",
+            "stock": 200
+        },
+        {
+            "id": 10,
+            "tipo": "Bebidas",
+            "nombre": "Agua de sabores",
+            "precio": 22,
+            "marca": "Jumex",
+            "stock": 124
+        },
+        {
+            "id": 11,
+            "tipo": "Bebidas",
+            "nombre": "Jarritos sabor tamarindo",
+            "precio": 18,
+            "marca": "Jarritos",
+            "stock": 100
+        },
+        {
+            "id": 12,
+            "tipo": "Bebidas",
+            "nombre": "Té frío",
+            "precio": 24,
+            "marca": "Bonafont",
+            "stock": 90
+        },
+        {
+            "id": 13,
+            "tipo": "Bebidas",
+            "nombre": "Café soluble",
+            "precio": 110,
+            "marca": "Café Legal",
+            "stock": 45
+        },
+        {
+            "id": 14,
+            "tipo": "Bebidas",
+            "nombre": "Bebida de avena",
+            "precio": 48,
+            "marca": "Avena Quaker",
+            "stock": 60
+        },
+        {
+            "id": 15,
+            "tipo": "Snacks",
+            "nombre": "Papas fritas",
+            "precio": 30,
+            "marca": "Sabritas",
+            "stock": 160
+        },
+        {
+            "id": 16,
+            "tipo": "Snacks",
+            "nombre": "Totopos",
+            "precio": 35,
+            "marca": "Tostitos",
+            "stock": 110
+        },
+        {
+            "id": 17,
+            "tipo": "Snacks",
+            "nombre": "Takis Fuego",
+            "precio": 28,
+            "marca": "Barcel",
+            "stock": 140
+        },
+        {
+            "id": 18,
+            "tipo": "Snacks",
+            "nombre": "Cajeta de frasco",
+            "precio": 75,
+            "marca": "Coronado",
+            "stock": 50
+        },
+        {
+            "id": 19,
+            "tipo": "Snacks",
+            "nombre": "Dulces de tamarindo",
+            "precio": 25,
+            "marca": "Lucas",
+            "stock": 120
+        },
+        {
+            "id": 20,
+            "tipo": "Snacks",
+            "nombre": "Galletas Marías",
+            "precio": 28,
+            "marca": "Gamesa",
+            "stock": 139
+        },
+        {
+            "id": 21,
+            "tipo": "Snacks",
+            "nombre": "Chocolates Abuelita",
+            "precio": 55,
+            "marca": "La Abuelita",
+            "stock": 78
+        },
+        {
+            "id": 22,
+            "tipo": "Cuidado personal",
+            "nombre": "Jabón de tocador",
+            "precio": 18,
+            "marca": "Zote",
+            "stock": 197
+        },
+        {
+            "id": 23,
+            "tipo": "Cuidado personal",
+            "nombre": "Pasta dental",
+            "precio": 35,
+            "marca": "Colgate",
+            "stock": 136
+        },
+        {
+            "id": 24,
+            "tipo": "Cuidado personal",
+            "nombre": "Shampoo",
+            "precio": 68,
+            "marca": "Sedal",
+            "stock": 80
+        },
+        {
+            "id": 25,
+            "tipo": "Cuidado personal",
+            "nombre": "Crema humectante",
+            "precio": 95,
+            "marca": "CeraVe",
+            "stock": 30
+        },
+        {
+            "id": 26,
+            "tipo": "Cuidado personal",
+            "nombre": "Desodorante roll",
+            "precio": 42,
+            "marca": "Rexona",
+            "stock": 120
+        },
+        {
+            "id": 27,
+            "tipo": "Cuidado personal",
+            "nombre": "Toallas femeninas",
+            "precio": 45,
+            "marca": "Kotex",
+            "stock": 75
+        },
+        {
+            "id": 28,
+            "tipo": "Cuidado personal",
+            "nombre": "Pañales talla M",
+            "precio": 120,
+            "marca": "Huggies",
+            "stock": 30
+        },
+        {
+            "id": 29,
+            "tipo": "Limpieza",
+            "nombre": "Detergente en polvo",
+            "precio": 45,
+            "marca": "Ariel",
+            "stock": 90
+        },
+        {
+            "id": 30,
+            "tipo": "Limpieza",
+            "nombre": "Cloro",
+            "precio": 22,
+            "marca": "Cloralex",
+            "stock": 135
+        },
+        {
+            "id": 31,
+            "tipo": "Limpieza",
+            "nombre": "Limpiador multiusos",
+            "precio": 48,
+            "marca": "Fabuloso",
+            "stock": 108
+        },
+        {
+            "id": 32,
+            "tipo": "Limpieza",
+            "nombre": "Suavizante",
+            "precio": 38,
+            "marca": "Ensueño",
+            "stock": 95
+        },
+        {
+            "id": 33,
+            "tipo": "Limpieza",
+            "nombre": "Bolsas para basura",
+            "precio": 55,
+            "marca": "BioBag",
+            "stock": 68
+        },
+        {
+            "id": 34,
+            "tipo": "Limpieza",
+            "nombre": "Esponja para platos",
+            "precio": 28,
+            "marca": "Scotch-Brite",
+            "stock": 126
+        },
+        {
+            "id": 35,
+            "tipo": "Limpieza",
+            "nombre": "Jabón para lavar platos",
+            "precio": 34,
+            "marca": "Axión",
+            "stock": 120
+        }
+    ]
+}

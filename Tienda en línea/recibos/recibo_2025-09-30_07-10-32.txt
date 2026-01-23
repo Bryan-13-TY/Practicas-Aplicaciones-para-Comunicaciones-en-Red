@@ -1,0 +1,27 @@
+************ RECIBO DE COMPRA ************
+
+Escuela Superior de Cómputo a 2025-09-30_07-10-32
+
+Esponja para platos (Scotch-Brite)
+- Cantidad: 4
+- Precio unitario: $28 MXN
+- Subtotal: $112 MXN
+
+Tortillas de maíz (Maseca)
+- Cantidad: 4
+- Precio unitario: $28 MXN
+- Subtotal: $112 MXN
+
+Agua de sabores (Jumex)
+- Cantidad: 2
+- Precio unitario: $22 MXN
+- Subtotal: $44 MXN
+
+Galletas Marías (Gamesa)
+- Cantidad: 2
+- Precio unitario: $28 MXN
+- Subtotal: $56 MXN
+
+==========================================
+TOTAL A PAGAR: $324 MXN
+==========================================

@@ -1,0 +1,39 @@
+************ RECIBO DE COMPRA ************
+
+Escuela Superior de Cómputo a 2025-09-28_12-01-18
+
+Galletas Marías (Gamesa)
+- Cantidad: 2
+- Precio unitario: $28 MXN
+- Subtotal: $56 MXN
+
+Chocolates Abuelita (La Abuelita)
+- Cantidad: 2
+- Precio unitario: $55 MXN
+- Subtotal: $110 MXN
+
+Jabón de tocador (Zote)
+- Cantidad: 3
+- Precio unitario: $18 MXN
+- Subtotal: $54 MXN
+
+Shampoo (Sedal)
+- Cantidad: 5
+- Precio unitario: $68 MXN
+- Subtotal: $340 MXN
+
+Pasta dental (Colgate)
+- Cantidad: 4
+- Precio unitario: $35 MXN
+- Subtotal: $140 MXN
+
+Crema humectante (CeraVe)
+- Cantidad: 5
+- Precio unitario: $95 MXN
+- Subtotal: $475 MXN
+
+==========================================
+TOTAL A PAGAR: $1175 MXN
+==========================================
+
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Probando metodos PUT y DELETE</title>
+    </head>
+    <body>
+        <button onclick="enviarPUT()">Enviar PUT</button>
+        <button onclick="enviarDELETE()">Enviar DELETE</button>
+
+        <script>
+            function enviarPUT() {
+                fetch("http://127.0.0.1:8080/prueba.txt", {
+                    method: "PUT",
+                    body: "Texto enviado desde PUT (nevegador)"
+                })
+                .then(r => r.text())
+                .then(t => alert("PUT: " + t))
+            }
+
+            function enviarDELETE() {
+                fetch("http://127.0.0.1:8080/prueba.txt", {
+                    method: "DELETE"
+                })
+                .then(r => r.text())
+                .then(t => alert("DELETE: " + t))
+            }
+        </script>
+    </body>
+</html>

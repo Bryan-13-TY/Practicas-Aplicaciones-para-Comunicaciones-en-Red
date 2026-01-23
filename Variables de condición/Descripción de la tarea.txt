@@ -1,0 +1,18 @@
+Escribe un programa cliente-servidor con las siguientes características:
+
+- Cliente:
+
+Desde el hilo principal (main) se lanzará un nuevo hilo (hilo de transmisión) cuya tarea
+será enviar un archivo al servidor (cualquier tipo de archivo, usando el tipo de socket de
+datagrama y usando el algoritmo Go-Back-N). Además de lanzar la tarea de envio de
+archivo, en el hilo principal crearás un menú desde donde el usuario podrá pausar, detener
+o reanudar la transmisión del archivo. Para hacer esto crearás un monitor de acceso y una
+variable de condición. Cada que el hilo de transmisión intente enviar un datagrama primero
+validará una bandera para saber si puede transmitir, en caso de que la bandera esta apagada
+el hilo se bloquerá a través de la variable de condición y solo se podrá desbloquear cuando
+el usuario elija reanudar la transmisión cambiando el estado de la bandera y desbloqueando
+al hilo a través de la variable de condición.
+
+- Servidor:
+
+El cliente solo se encargará de recibir el archivo mediante socket de datagrama.

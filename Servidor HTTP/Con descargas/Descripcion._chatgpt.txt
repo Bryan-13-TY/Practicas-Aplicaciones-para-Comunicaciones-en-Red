@@ -1,0 +1,14 @@
+1.- El servidor será en Python
+2.- El servidor usará sockets de flujo no bloqueantes (HOST: 127.0.0.1, PORT: 8080)
+3.- Por el momento solo manejará el método GET
+4.- Se solicitará un recurso mediante la URL del navegador (ej. http://127.0.0.1:8080/[recurso]) (los recursas estarán en la carpeta 'archives')
+4.1.- Los recursos que el navegador puede mostrar (MIMES: .html, .txt, .json, .png, .jpg, .jpeg, .pdf, .mp4, .mp3) los muestra
+4.2.- Los recursos que el navegador no puede mostrar los descarga
+4.3.- Si el recurso es una carpeta en vez de mostrarla se descargará en un ZIP, manteniendo su estrutura (subcarpetas y archivos)
+4.3.1.- Si el nombre de la carpeta no termina en un '/' entonces se busca la ruta en 'Location' (devuelve código 301)
+4.3.2.- Si el nombre de la carpeta termina en '/' entonces se lee 'Content-Length' para los bytes a guardar (devuelve código 200)
+5.- Maneja los códigos usuales (404, 405 (métodos PUT, DELETE, POST), etc)
+6.- También se manejará un pool de conexiones, si se sobrepasa la mitas de este pool entonces se iniciar un segundo servidor (PORT: 8081) y redirige las conexiones a este servidor
+6.1.- Usa la misma carpeta para obtener los recursos (si ves que es mejor usar una segunda indicalo)
+
+Una pregunta, tengo ya un servidor.py con sockets bloqueantes que implementa todos estos puntos a excepción de las descargar, también implementa los métodos GET, POST, PUT Y DELETE ¿Quieres que te lo pase para que te des una idea?

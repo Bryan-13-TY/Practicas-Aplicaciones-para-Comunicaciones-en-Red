@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Servidor HTTP</title>
+    </head>
+    <body>
+        <h1 style="text-align: center;">Servidor HTTP con sockets de flujo no bloqueantes</h1>
+        <ol>
+            <li>
+                <h2>Método GET (ver)</h2>
+                <ul>
+                    <li><a href="dato.json" style="text-decoration: none;">Ver json (dato.json) -> 200</a></li>
+                    <li><a href="mensaje.txt" style="text-decoration: none;">Ver txt (mensaje.txt) -> 200</a></li>
+                    <li><a href="imagen.png" style="text-decoration: none;">Ver png (imagen.png) -> 200</a></li>
+                    <li><a href="imagen2.jpg" style="text-decoration: none;">Ver jpg (imagen2.jpg) -> 200</a></li>
+                    <li><a href="imagen3.jpeg" style="text-decoration: none;">Ver jpeg (imagen3.jpeg) -> 200</a></li>
+                    <li><a href="avanzadas.pdf" style="text-decoration: none;">Ver pdf (avanzadas.pdf) -> 200</a></li>
+                    <li><a href="Don't-Let-Me-Down.mp4" style="text-decoration: none;">Ver mp4 (Don't-Let-Me-Down.mp4) -> 200</a></li>
+                    <li><a href="Eyes-Without-A-Face.mp3" style="text-decoration: none;">Ver mp3 (Eyes-Without-A-Face.mp3) -> 200</a></li>
+                    <li><a href="imgs/" style="text-decoration: none;">Descargar carpeta (imgs/) -> 200</a></li>
+                    <li><a href="songs" style="text-decoration: none;">Descargar carpeta (songs/) -> 301 -> 200</a></li>
+                    <li><a href="resources" style="text-decoration: none;">Descargar carpeta (resources/) -> 301 -> 200</a></li>
+                    <li><a href="snake.exe" style="text-decoration: none;">Descargar exe (snake.exe)</a></li>
+                    <li><a href="prueba.txt" style="text-decoration: none;">Ver txt (prueba.txt)</a></li>
+                </ul>
+            </li>
+            <li>
+                <h2>Método POST (crear)</h2>
+                <form method="post" action="http://127.0.0.1:8080/prueba.txt">
+                    <textarea name="data" placeholder="Escribe algo"></textarea>
+                    <button type="submit">Crear prueba.txt</button>
+                </form>
+            </li>
+            <li>
+                <h2>Método PUT (modificar)</h2>
+                <button onclick="enviar_put()">Modificar prueba.txt</button>
+            </li>
+            <li>
+                <h2>Método DELETE (borrar)</h2>
+                <button onclick="enviar_delete()">Eliminar prueba.txt</button>
+            </li>
+        </ol>
+    </body>
+    <script>
+        function enviar_put() {
+            fetch("http://127.0.0.1:8080/prueba.txt", {
+                method: "PUT",
+                body: "Archivo prueba.txt modificado con PUT desde el navegador"
+            })
+            .then(r => r.text())
+            .then(t => alert("PUT: " + t))
+        }
+
+        function enviar_delete() {
+            fetch("http://127.0.0.1:8080/prueba.txt", {
+                method: "DELETE"
+            })
+            .then(r => r.text())
+            .then(t => alert("DELETE: " + t))
+        }
+    </script>
+</html>
