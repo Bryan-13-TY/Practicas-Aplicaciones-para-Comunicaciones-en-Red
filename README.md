@@ -1,0 +1,2 @@
+# Pr-cticas-Aplicaciones-para-comunicaciones-en-red
+Prácticas desarrolladas durante el periodo 2025/2 para la materia de Aplicaciones para Comunicaciones en Red de la Escuela Superior de Cómputo (ESCOM-IPN) con el profesor Moreno Cervantes Axel Ernesto.
